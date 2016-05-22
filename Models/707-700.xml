@@ -86,17 +86,7 @@
 	</condition>
 </animation>
  
-  <sound><path>Aircraft/707-700/Sounds/mp-sound.xml</path></sound>
-
-  <nasal>
-    <load>
-      var livery_update = aircraft.livery_update.new("Aircraft/707-700/Models/Liveries", 10);
-    </load>
-
-    <unload>
-      livery_update.stop();
-    </unload>
-  </nasal>
+  <sound><path>Aircraft/707/Sounds/mp-sound.xml</path></sound>
 
   <animation>
     <type>material</type>
@@ -244,7 +234,7 @@
 	
 	<model>
 	 <name>ExternalPowerUnit</name>
-	 <path>Aircraft/707-700/Models/epu.xml</path>
+	 <path>Aircraft/707/Models/epu.xml</path>
 		<offsets>
       <x-m>-17.5</x-m>
       <y-m>7.0</y-m>
@@ -279,7 +269,7 @@
   <!-- Fuel Truck -->
   <model>
   	<name>FuelTruck</name>
-	<path>Aircraft/707-700/Models/fuel-truck.xml</path>
+	<path>Aircraft/707/Models/fuel-truck.xml</path>
 	<offsets>
 	  <x-m>0.0</x-m>
 	  <y-m>0.0</y-m>
@@ -319,7 +309,7 @@
 	<!-- Stairways -->
 	<model>
 		<name>frontStair</name>
-		<path>Aircraft/707-700/Models/stairs.xml</path>
+		<path>Aircraft/707/Models/stairs.xml</path>
 		<offsets>
 			<x-m>-15.39</x-m>
 			<y-m>-5.1</y-m>
@@ -330,7 +320,7 @@
 
 	<model>
 		<name>rearStair</name>
-		<path>Aircraft/707-700/Models/stairs.xml</path>
+		<path>Aircraft/707/Models/stairs.xml</path>
 		<offsets>
 			<x-m>16.0</x-m>
 			<y-m>-4.2</y-m>
@@ -430,7 +420,7 @@
 	<!-- cargo equipment -->
 	<model>
 	 <name>Loader1</name>
-	 <path>Aircraft/707-700/Models/loader.xml</path>
+	 <path>Aircraft/707/Models/loader.xml</path>
 	 <offsets>
 		<x-m>0</x-m>
 		<y-m>-6.2</y-m>
@@ -488,7 +478,7 @@
   
 	<model>
 	 <name>Loader2</name>
-	 <path>Aircraft/707-700/Models/belly.xml</path>
+	 <path>Aircraft/707/Models/belly.xml</path>
 	 <offsets>
 		<x-m>0</x-m>
 		<y-m>6.2</y-m>
@@ -545,7 +535,7 @@
   
   	<model>
 	 <name>Loader3</name>
-	 <path>Aircraft/707-700/Models/bellyLoader.xml</path>
+	 <path>Aircraft/707/Models/bellyLoader.xml</path>
 	 <offsets>
 		<x-m>0</x-m>
 		<y-m>6.2</y-m>
@@ -616,7 +606,7 @@
   <!-- shadow without rembrandt -->
 	<model>
 		<name>NewShadow</name>
-		<path>Aircraft/707-700/Models/shadow.xml</path>
+		<path>Aircraft/707/Models/shadow.xml</path>
 	</model>
 
 	<animation>
@@ -802,7 +792,7 @@
 <!-- Emergency slide-->
 	<model>
 		<name>EmergencySlide</name>
-		<path>Aircraft/707-700/Models/Cockpit/Equipment/emer_slide/emer_slide.xml</path>
+		<path>Aircraft/707/Models/Cockpit/Equipment/emer_slide/emer_slide.xml</path>
 		<offsets>
       <x-m>0</x-m>
       <y-m>0</y-m>
@@ -857,7 +847,7 @@
  
 	<model>
 		<name>NoseGearSmoke</name>
-		<path>Aircraft/707-700/Models/Effects/tyre-smoke-nose.xml</path>
+		<path>Aircraft/707/Models/Effects/tyre-smoke-nose.xml</path>
 		<offsets>
       <x-m>-15.678</x-m>
       <y-m>0</y-m>
@@ -1101,7 +1091,7 @@
  
 	<model>
 		<name>RightGearBase</name>
-		<path>Aircraft/707-700/Models/wheels.xml</path>
+		<path>Aircraft/707/Models/wheels.xml</path>
 		<offsets>
 		  <x-m> 1.82</x-m>
 		  <y-m> 2.76</y-m>
@@ -1111,7 +1101,7 @@
 
 	<model>
 		<name>LeftGearBase</name>
-		<path>Aircraft/707-700/Models/wheels.xml</path>
+		<path>Aircraft/707/Models/wheels.xml</path>
 		<offsets>
 		  <x-m> 1.82</x-m>
 		  <y-m>-2.76</y-m>
@@ -1122,7 +1112,7 @@
 
 	<model>
 		<name>RightGearSmoke</name>
-		<path>Aircraft/707-700/Models/Effects/tyre-smoke-right.xml</path>
+		<path>Aircraft/707/Models/Effects/tyre-smoke-right.xml</path>
 		<offsets>
 		  <x-m> 1.82</x-m>
 		  <y-m> 2.59</y-m>
@@ -1132,7 +1122,7 @@
 
 	<model>
 		<name>LeftGearSmoke</name>
-		<path>Aircraft/707-700/Models/Effects/tyre-smoke-left.xml</path>
+		<path>Aircraft/707/Models/Effects/tyre-smoke-left.xml</path>
 		<offsets>
 		  <x-m> 1.82</x-m>
 		  <y-m>-2.53</y-m>
@@ -2139,7 +2129,7 @@
  <!--cockpit -->
 	<model>
 		<name>cockpit</name>
-		<path>Aircraft/707-700/Models/Cockpit/cockpit.xml</path>
+		<path>Aircraft/707/Models/Cockpit/cockpit.xml</path>
 		<offsets>
 		  <x-m>0.0</x-m>
 		  <y-m>0.0</y-m>
@@ -2149,7 +2139,7 @@
 	
 	<model>
 		<name>registrationCockpitPanel</name>
-	  <path>Aircraft/707-700/Models/Registration/flightnumber.xml</path>
+	  <path>Aircraft/707/Models/Registration/flightnumber.xml</path>
 	  <offsets>
 	      <x-m>-18.91</x-m>
 	      <y-m>-0.425</y-m>
@@ -2166,7 +2156,7 @@
 
 	<model> 
 		<name>theCabin</name>
-		<path>Aircraft/707-700/Models/cabin.xml</path>
+		<path>Aircraft/707/Models/cabin.xml</path>
 	</model>
 
 	<animation>
@@ -2183,7 +2173,7 @@
 
 	<model> 
 		<name>theContainerInside</name>
-		<path>Aircraft/707-700/Models/container.xml</path>
+		<path>Aircraft/707/Models/container.xml</path>
 	</model>
 
 	<animation>
@@ -2215,47 +2205,6 @@
      </axis>
     </animation>
 
- <!--Conway RCo.10 engines -->
-	<model>
-		<name>engineOne</name>
-		<path>Aircraft/707-700/Models/RCo10_1.xml</path>
-		<offsets>
-		  <x-m>  2.42</x-m>
-		  <y-m>-14.835</y-m>
-		  <z-m> -0.647</z-m>
-		</offsets>
-	</model>
-	
-	<model>
-		<name>engineTwo</name>
-		<path>Aircraft/707-700/Models/RCo10_2.xml</path>
-		<offsets>
-		  <x-m> -1.25</x-m>
-		  <y-m>-10.077</y-m>
-		  <z-m> -1.10</z-m>
-		</offsets>
-	</model>
-	
-	<model>
-		<name>engineThree</name>
-		<path>Aircraft/707-700/Models/RCo10_3.xml</path>
-		<offsets>
-		  <x-m> -1.25</x-m>
-		  <y-m> 10.077</y-m>
-		  <z-m> -1.10</z-m>
-		</offsets>
-	</model>
-	
-	<model>
-		<name>engineFour</name>
-		<path>Aircraft/707-700/Models/RCo10_4.xml</path>
-		<offsets>
-		  <x-m>  2.42</x-m>
-		  <y-m> 14.835</y-m>
-		  <z-m> -0.647</z-m>
-		</offsets>
-	</model>
-
   <!-- crashed or pratt and whitney engines -->	
 	<animation>
 		<type>select</type>
@@ -2276,10 +2225,10 @@
 		</condition>	
 	</animation>
 
- <!--Pratt and Whitney JT4 engines -->
+ <!--cfm56 engines -->
 	<model>
-		<name>engineOnePW</name>
-		<path>Aircraft/707-700/Engines/XMLs/a320.cfm.xml</path>
+		<name>engineOneCF</name>
+		<path>Aircraft/707/Engines/XMLs/a320.cfm.xml</path>
 		<offsets>
 		  <x-m>  -0.7</x-m>
 		  <y-m>-14.835</y-m>
@@ -2288,8 +2237,8 @@
 	</model>
 	
 	<model>
-		<name>engineTwoPW</name>
-		<path>Aircraft/707-700/Engines/XMLs/a320.cfm.xml</path>
+		<name>engineTwoCF</name>
+		<path>Aircraft/707/Engines/XMLs/a320.cfm.xml</path>
 		<offsets>
 		  <x-m> -4.3</x-m>
 		  <y-m>-10.077</y-m>
@@ -2298,8 +2247,8 @@
 	</model>
 	
 	<model>
-		<name>engineThreePW</name>
-		<path>Aircraft/707-700/Engines/XMLs/a320.cfm.xml</path>
+		<name>engineThreeCF</name>
+		<path>Aircraft/707/Engines/XMLs/a320.cfm.xml</path>
 		<offsets>
 		  <x-m> -4.3</x-m>
 		  <y-m> 10.077</y-m>
@@ -2308,8 +2257,8 @@
 	</model>
 	
 	<model>
-		<name>engineFourPW</name>
-		<path>Aircraft/707-700/Engines/XMLs/a320.cfm.xml</path>
+		<name>engineFourCF</name>
+		<path>Aircraft/707/Engines/XMLs/a320.cfm.xml</path>
 		<offsets>
 		  <x-m>  -0.7</x-m>
 		  <y-m> 14.835</y-m>
@@ -2319,7 +2268,7 @@
 	
 	<model>
 		<name>engineOneNC</name>
-		<path>Aircraft/707-700/Engines/XMLs/a320.nacelle.cfm.xml</path>
+		<path>Aircraft/707/Engines/XMLs/a320.nacelle.cfm.xml</path>
 		<offsets>
 		  <x-m>  0.47</x-m>
 		  <y-m>-14.835</y-m>
@@ -2329,7 +2278,7 @@
 	
 	<model>
 		<name>engineTwoNC</name>
-		<path>Aircraft/707-700/Engines/XMLs/a320.nacelle.cfm.xml</path>
+		<path>Aircraft/707/Engines/XMLs/a320.nacelle.cfm.xml</path>
 		<offsets>
 		  <x-m> -3.18</x-m>
 		  <y-m>-10.077</y-m>
@@ -2339,7 +2288,7 @@
 	
 	<model>
 		<name>engineThreeNC</name>
-		<path>Aircraft/707-700/Engines/XMLs/a320.nacelle.cfm.xml</path>
+		<path>Aircraft/707/Engines/XMLs/a320.nacelle.cfm.xml</path>
 		<offsets>
 		  <x-m> -3.18</x-m>
 		  <y-m> 10.077</y-m>
@@ -2349,7 +2298,7 @@
 	
 	<model>
 		<name>engineFourNC</name>
-		<path>Aircraft/707-700/Engines/XMLs/a320.nacelle.cfm.xml</path>
+		<path>Aircraft/707/Engines/XMLs/a320.nacelle.cfm.xml</path>
 		<offsets>
 		  <x-m>  0.47</x-m>
 		  <y-m> 14.835</y-m>
@@ -2379,7 +2328,7 @@
 	
 	<model>
 		<name>ExternalLights</name>
-		<path>Aircraft/707-700/Models/Lights/707_Lights.xml</path>	
+		<path>Aircraft/707/Models/Lights/707_Lights.xml</path>	
 		<offsets>
 			<x-m>0</x-m>
 			<y-m>0</y-m>
@@ -2390,7 +2339,7 @@
 
 <!-- Fire , #1 -->
 <model>
-  <path>Aircraft/707-700/Models/Effects/fire-in-flight.xml</path>
+  <path>Aircraft/707/Models/Effects/fire-in-flight.xml</path>
 		<condition>
 			<and>
 				<greater-than>
@@ -2417,7 +2366,7 @@
   </offsets>
 </model>
 <model>
-  <path>Aircraft/707-700/Models/Effects/fire-in-flight.xml</path>
+  <path>Aircraft/707/Models/Effects/fire-in-flight.xml</path>
 		<condition>
 			<and>
 				<greater-than>
@@ -2445,7 +2394,7 @@
 </model>
 
 <model>
-  <path>Aircraft/707-700/Models/Effects/fire.xml</path>
+  <path>Aircraft/707/Models/Effects/fire.xml</path>
 		<condition>
 			<and>
 				<less-than-equals>
@@ -2475,7 +2424,7 @@
 
 <!-- Fire, #2 -->
 <model>
-  <path>Aircraft/707-700/Models/Effects/fire-in-flight.xml</path>
+  <path>Aircraft/707/Models/Effects/fire-in-flight.xml</path>
 		<condition>
 			<and>
 				<greater-than>
@@ -2502,7 +2451,7 @@
   </offsets>
 </model>
 <model>
-  <path>Aircraft/707-700/Models/Effects/fire-in-flight.xml</path>
+  <path>Aircraft/707/Models/Effects/fire-in-flight.xml</path>
 		<condition>
 			<and>
 				<greater-than>
@@ -2530,7 +2479,7 @@
 </model>
 
 <model>
-  <path>Aircraft/707-700/Models/Effects/fire.xml</path>
+  <path>Aircraft/707/Models/Effects/fire.xml</path>
 		<condition>
 			<and>
 				<less-than-equals>
@@ -2560,7 +2509,7 @@
 
 <!-- Fire, #3 -->
 <model>
-  <path>Aircraft/707-700/Models/Effects/fire-in-flight.xml</path>
+  <path>Aircraft/707/Models/Effects/fire-in-flight.xml</path>
 		<condition>
 			<and>
 				<greater-than>
@@ -2587,7 +2536,7 @@
   </offsets>
 </model>
 <model>
-  <path>Aircraft/707-700/Models/Effects/fire-in-flight.xml</path>
+  <path>Aircraft/707/Models/Effects/fire-in-flight.xml</path>
 		<condition>
 			<and>
 				<greater-than>
@@ -2615,7 +2564,7 @@
 </model>
 
 <model>
-  <path>Aircraft/707-700/Models/Effects/fire.xml</path>
+  <path>Aircraft/707/Models/Effects/fire.xml</path>
 		<condition>
 			<and>
 				<less-than-equals>
@@ -2644,7 +2593,7 @@
 
 <!-- Fire, #4 -->
 <model>
-  <path>Aircraft/707-700/Models/Effects/fire-in-flight.xml</path>
+  <path>Aircraft/707/Models/Effects/fire-in-flight.xml</path>
 		<condition>
 			<and>
 				<greater-than>
@@ -2671,7 +2620,7 @@
   </offsets>
 </model>
 <model>
-  <path>Aircraft/707-700/Models/Effects/fire-in-flight.xml</path>
+  <path>Aircraft/707/Models/Effects/fire-in-flight.xml</path>
 		<condition>
 			<and>
 				<greater-than>
@@ -2699,7 +2648,7 @@
 </model>
 
 <model>
-  <path>Aircraft/707-700/Models/Effects/fire.xml</path>
+  <path>Aircraft/707/Models/Effects/fire.xml</path>
 		<condition>
 			<and>
 				<less-than-equals>
@@ -2728,7 +2677,7 @@
 
 <!-- Jettison / Fuel dump, left -->
 <model>
-  <path>Aircraft/707-700/Models/Effects/fuel_dump.xml</path>
+  <path>Aircraft/707/Models/Effects/fuel_dump.xml</path>
 		<condition>
 			<or>
 				<equals>
@@ -2751,7 +2700,7 @@
 
 <!-- Jettison / Fuel dump, right -->
 <model>
-  <path>Aircraft/707-700/Models/Effects/fuel_dump.xml</path>
+  <path>Aircraft/707/Models/Effects/fuel_dump.xml</path>
 		<condition>
 			<or>
 				<equals>
@@ -2775,7 +2724,7 @@
 <!-- Registration -->
 <model>
 	<name>registrationRudderRight</name>
-  <path>Aircraft/707-700/Models/Registration/registration.xml</path>
+  <path>Aircraft/707/Models/Registration/registration.xml</path>
   <offsets>
     <x-m>20.39</x-m>
     <y-m>0.18</y-m>
@@ -2792,7 +2741,7 @@
 
 <model>
 	<name>registrationRudderLeft</name>
-  <path>Aircraft/707-700/Models/Registration/registration.xml</path>
+  <path>Aircraft/707/Models/Registration/registration.xml</path>
   <offsets>
     <x-m>20.39</x-m>
     <y-m>-0.18</y-m>
@@ -2810,7 +2759,7 @@
 <!-- Registration (wingTop)-->
 <model>
 	<name>registrationWingTop</name>
-  <path>Aircraft/707-700/Models/Registration/registration.xml</path>
+  <path>Aircraft/707/Models/Registration/registration.xml</path>
   <offsets>
     <x-m>7.72</x-m>
     <y-m>17.34</y-m>
@@ -2830,7 +2779,7 @@
 <!-- Registration (wingBottom) --> 
 <model>
 	<name>registrationWingBottom</name>
-  <path>Aircraft/707-700/Models/Registration/registration.xml</path>
+  <path>Aircraft/707/Models/Registration/registration.xml</path>
   <offsets>
     <x-m>  7.72</x-m>
     <y-m>-17.34</y-m>
@@ -2850,7 +2799,7 @@
 <!-- Registration fuselage -->
 <model>
 	<name>registrationFuselageRight</name>
-  <path>Aircraft/707-700/Models/Registration/registration.xml</path>
+  <path>Aircraft/707/Models/Registration/registration.xml</path>
   <offsets>
     <x-m>-15.0</x-m>
     <y-m>1.6</y-m>
@@ -2868,7 +2817,7 @@
 
 <model>
 	<name>registrationFuselageLeft</name>
-  <path>Aircraft/707-700/Models/Registration/registration.xml</path>
+  <path>Aircraft/707/Models/Registration/registration.xml</path>
   <offsets>
     <x-m>-13.5</x-m>
     <y-m>-1.68</y-m>
@@ -2887,7 +2836,7 @@
 <!-- Registration fuselage upper back -->
 <model>
 	<name>registrationFuselageRightBack</name>
-  <path>Aircraft/707-700/Models/Registration/registration.xml</path>
+  <path>Aircraft/707/Models/Registration/registration.xml</path>
   <offsets>
     <x-m>11.5</x-m>
     <y-m>1.55</y-m>
@@ -2905,7 +2854,7 @@
 
 <model>
 	<name>registrationFuselageLeftBack</name>
-  <path>Aircraft/707-700/Models/Registration/registration.xml</path>
+  <path>Aircraft/707/Models/Registration/registration.xml</path>
   <offsets>
     <x-m>11.5</x-m>
     <y-m>-1.55</y-m>
