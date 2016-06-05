@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+	<path>../Models/cfm58.ac</path>
+	<offsets>
+		<x-m>0.941</x-m>
+	</offsets>
+	<!--texture-path>../Textures/Livery/House</texture-path-->
+	<animation>
+  <type>scale</type>
+  <x-offset>0.9</x-offset>
+  <y-offset>0.9</y-offset>
+  <z-offset>0.9</z-offset>
+ </animation>
+ 
+ <animation>
+		<name>Fan</name>
+		<type>spin</type>
+		<object-name>cone</object-name>
+		<object-name>fan</object-name>
+		<factor>67</factor>
+		<property>engines/engine[2]/n1</property>
+		<axis>
+			<x>-1</x>
+			<y>0</y>
+			<z>0</z>
+		</axis>
+	</animation>
+	<!-- Nasal code 
+	<nasal>
+		<load>
+		 var livery_update = aircraft.livery_update.new("Aircraft/KC-135R/Models/Liveries/" ~ getprop("sim/aero"));
+		</load>
+		<unload>
+		 livery_update.stop();
+		</unload>
+	</nasal>-->
+
+	
+</PropertyList>

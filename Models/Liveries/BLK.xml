@@ -10,8 +10,8 @@
 <sim>
     <model>
         <livery>
-            <name type="string">Blank PAX</name>
-            <texture>Liveries/BLK.png</texture>
+            <name type="string">Blank</name>
+            <texture>Liveries/BLP.png</texture>
         </livery>
     </model>
     <multiplay>

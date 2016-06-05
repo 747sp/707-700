@@ -31,14 +31,6 @@
     <object-name>rhdoorinner</object-name>
     <object-name>rhdoorouter</object-name>
     <object-name>rhfwdfairing</object-name>
-    <object-name>engineOne</object-name>
-    <object-name>engineTwo</object-name>
-    <object-name>engineThree</object-name>
-    <object-name>engineFour</object-name>
-    <object-name>engineOnePW</object-name>
-    <object-name>engineTwoPW</object-name>
-    <object-name>engineThreePW</object-name>
-    <object-name>engineFourPW</object-name>
     <object-name>engineSupport</object-name>
     <object-name>lhngdoor</object-name>
     <object-name>lhngdooraft</object-name>
@@ -88,6 +80,16 @@
  
   <sound><path>Aircraft/707/Sounds/mp-sound.xml</path></sound>
 
+  <nasal>
+    <load>
+      var livery_update = aircraft.livery_update.new("Aircraft/707-700/Models/Liveries", 10);
+    </load>
+
+    <unload>
+      livery_update.stop();
+    </unload>
+  </nasal>
+
   <animation>
     <type>material</type>
     <object-name>fuselage</object-name>
@@ -110,14 +112,6 @@
     <object-name>rhdoorinner</object-name>
     <object-name>rhdoorouter</object-name>
     <object-name>rhfwdfairing</object-name>
-    <object-name>engineOne</object-name>
-    <object-name>engineTwo</object-name>
-    <object-name>engineThree</object-name>
-    <object-name>engineFour</object-name>
-    <object-name>engineOnePW</object-name>
-    <object-name>engineTwoPW</object-name>
-    <object-name>engineThreePW</object-name>
-    <object-name>engineFourPW</object-name>
     <object-name>engineSupport</object-name>
     <object-name>slats</object-name>
     <object-name>lhngdoor</object-name>
@@ -2205,6 +2199,87 @@
      </axis>
     </animation>
 
+<!--cfm56 engines -->
+	<model>
+		<name>engineOneCF</name>
+		<path>Aircraft/707-700/Engines/XMLs/a320.cfm.xml</path>
+		<offsets>
+		  <x-m>  -0.7</x-m>
+		  <y-m>-14.835</y-m>
+		  <z-m> -1</z-m>
+		</offsets>
+	</model>
+	
+	<model>
+		<name>engineTwoCF</name>
+		<path>Aircraft/707-700/Engines/XMLs/a321.cfm.xml</path>
+		<offsets>
+		  <x-m> -4.3</x-m>
+		  <y-m>-10.077</y-m>
+		  <z-m> -1.45</z-m>
+		</offsets>
+	</model>
+	
+	<model>
+		<name>engineThreeCF</name>
+		<path>Aircraft/707-700/Engines/XMLs/a322.cfm.xml</path>
+		<offsets>
+		  <x-m> -4.3</x-m>
+		  <y-m> 10.077</y-m>
+		  <z-m> -1.45</z-m>
+		</offsets>
+	</model>
+	
+	<model>
+		<name>engineFourCF</name>
+		<path>Aircraft/707-700/Engines/XMLs/a323.cfm.xml</path>
+		<offsets>
+		  <x-m>  -0.7</x-m>
+		  <y-m> 14.835</y-m>
+		  <z-m> -1</z-m>
+		</offsets>
+	</model>
+	
+	<model>
+		<name>engineOneNC</name>
+		<path>Aircraft/707-700/Engines/XMLs/a320.nacelle.cfm.xml</path>
+		<offsets>
+		  <x-m>  0.47</x-m>
+		  <y-m>-14.835</y-m>
+		  <z-m> -1</z-m>
+		</offsets>
+	</model>
+	
+	<model>
+		<name>engineTwoNC</name>
+		<path>Aircraft/707-700/Engines/XMLs/a321.nacelle.cfm.xml</path>
+		<offsets>
+		  <x-m> -3.18</x-m>
+		  <y-m>-10.077</y-m>
+		  <z-m> -1.45</z-m>
+		</offsets>
+	</model>
+	
+	<model>
+		<name>engineThreeNC</name>
+		<path>Aircraft/707-700/Engines/XMLs/a322.nacelle.cfm.xml</path>
+		<offsets>
+		  <x-m> -3.18</x-m>
+		  <y-m> 10.077</y-m>
+		  <z-m> -1.45</z-m>
+		</offsets>
+	</model>
+	
+	<model>
+		<name>engineFourNC</name>
+		<path>Aircraft/707-700/Engines/XMLs/a323.nacelle.cfm.xml</path>
+		<offsets>
+		  <x-m>  0.47</x-m>
+		  <y-m> 14.835</y-m>
+		  <z-m> -1</z-m>
+		</offsets>
+	</model>
+
   <!-- crashed or pratt and whitney engines -->	
 	<animation>
 		<type>select</type>
@@ -2225,10 +2300,11 @@
 		</condition>	
 	</animation>
 
- <!--cfm56 engines -->
+ <!--Pratt and Whitney JT4 engines -->
+	<!--cfm56 engines -->
 	<model>
 		<name>engineOneCF</name>
-		<path>Aircraft/707/Engines/XMLs/a320.cfm.xml</path>
+		<path>Aircraft/707-700/Engines/XMLs/a320.cfm.xml</path>
 		<offsets>
 		  <x-m>  -0.7</x-m>
 		  <y-m>-14.835</y-m>
@@ -2238,7 +2314,7 @@
 	
 	<model>
 		<name>engineTwoCF</name>
-		<path>Aircraft/707/Engines/XMLs/a320.cfm.xml</path>
+		<path>Aircraft/707-700/Engines/XMLs/a321.cfm.xml</path>
 		<offsets>
 		  <x-m> -4.3</x-m>
 		  <y-m>-10.077</y-m>
@@ -2248,7 +2324,7 @@
 	
 	<model>
 		<name>engineThreeCF</name>
-		<path>Aircraft/707/Engines/XMLs/a320.cfm.xml</path>
+		<path>Aircraft/707-700/Engines/XMLs/a322.cfm.xml</path>
 		<offsets>
 		  <x-m> -4.3</x-m>
 		  <y-m> 10.077</y-m>
@@ -2258,7 +2334,7 @@
 	
 	<model>
 		<name>engineFourCF</name>
-		<path>Aircraft/707/Engines/XMLs/a320.cfm.xml</path>
+		<path>Aircraft/707-700/Engines/XMLs/a323.cfm.xml</path>
 		<offsets>
 		  <x-m>  -0.7</x-m>
 		  <y-m> 14.835</y-m>
@@ -2268,7 +2344,7 @@
 	
 	<model>
 		<name>engineOneNC</name>
-		<path>Aircraft/707/Engines/XMLs/a320.nacelle.cfm.xml</path>
+		<path>Aircraft/707-700/Engines/XMLs/a320.nacelle.cfm.xml</path>
 		<offsets>
 		  <x-m>  0.47</x-m>
 		  <y-m>-14.835</y-m>
@@ -2278,7 +2354,7 @@
 	
 	<model>
 		<name>engineTwoNC</name>
-		<path>Aircraft/707/Engines/XMLs/a320.nacelle.cfm.xml</path>
+		<path>Aircraft/707-700/Engines/XMLs/a321.nacelle.cfm.xml</path>
 		<offsets>
 		  <x-m> -3.18</x-m>
 		  <y-m>-10.077</y-m>
@@ -2288,7 +2364,7 @@
 	
 	<model>
 		<name>engineThreeNC</name>
-		<path>Aircraft/707/Engines/XMLs/a320.nacelle.cfm.xml</path>
+		<path>Aircraft/707-700/Engines/XMLs/a322.nacelle.cfm.xml</path>
 		<offsets>
 		  <x-m> -3.18</x-m>
 		  <y-m> 10.077</y-m>
@@ -2298,7 +2374,7 @@
 	
 	<model>
 		<name>engineFourNC</name>
-		<path>Aircraft/707/Engines/XMLs/a320.nacelle.cfm.xml</path>
+		<path>Aircraft/707-700/Engines/XMLs/a323.nacelle.cfm.xml</path>
 		<offsets>
 		  <x-m>  0.47</x-m>
 		  <y-m> 14.835</y-m>
@@ -2907,7 +2983,7 @@
 		</equals>
 	</condition>
 </animation>
-
+  
 </PropertyList>
 
 

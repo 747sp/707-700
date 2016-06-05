@@ -10,9 +10,9 @@
 <sim>
     <model>
         <livery>
-            <name type="string">White</name>
+            <name type="string">BNW Freighter</name>
             <texture>Liveries/WHT.png</texture>
-            <texture-container>LiveriesEC/FAE-container.png</texture-container>
+            <texture-container>Liveries/TMA-container.png</texture-container>
         </livery>
     </model>
     <multiplay>

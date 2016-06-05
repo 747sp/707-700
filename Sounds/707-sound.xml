@@ -1014,7 +1014,7 @@
 	<firewarning>
 		<name>fire warning</name>
 		<mode>looped</mode>
-		<path>Aircraft/707/Sounds/paul_anka.wav</path>
+		<path>Aircraft/707/Sounds/fire.wav</path>
       <condition>
       	<and>
 					<greater-than>
