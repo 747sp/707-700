@@ -189,39 +189,6 @@
         </offsets>
     </model>
     <model>
-        <name>tancan_rmi</name>
-        <path>Aircraft/707-700/Models/Cockpit/Instruments/tacan/ci/ci.xml</path>
-        <condition>
-            <or>
-                <equals>
-                    <property>sim/aircraft</property>
-                    <value type="string">EC-137D</value>
-                </equals>
-                <equals>
-                    <property>sim/aircraft</property>
-                    <value type="string">707-TT</value>
-                </equals>
-                <equals>
-                    <property>sim/model/livery/file</property>
-                    <value type="string">USA</value>
-                </equals>
-                <equals>
-                    <property>sim/model/livery/file</property>
-                    <value type="string">FAE</value>
-                </equals>
-                <equals>
-                    <property>sim/model/livery/file</property>
-                    <value type="string">CR</value>
-                </equals>
-            </or>
-        </condition>
-        <offsets>
-            <x-m>-18.916</x-m>
-            <y-m>-0.25</y-m>
-            <z-m>0.8</z-m>
-        </offsets>
-    </model>
-    <model>
         <name>speed-limit-lamps</name>
         <path>Aircraft/707-700/Models/Cockpit/Instruments/lamps/speed-limit.xml</path>
         <offsets>
@@ -529,15 +496,6 @@
             <z-m>  0.793</z-m>
         </offsets>
     </model>
-    <model>
-        <name>flight rallye watch</name>
-        <path>Aircraft/707-700/Models/Cockpit/Instruments/frw/frw.xml</path>
-        <offsets>
-            <x-m>-18.966</x-m>
-            <y-m>-0.06</y-m>
-            <z-m>1.35</z-m>
-        </offsets>
-    </model>
     <!-- Copilot Panel -->
     <model>
         <name>air_temp</name>
@@ -775,39 +733,7 @@
             <pitch-deg>-70</pitch-deg>
         </offsets>
     </model>
-    <model>
-        <path>Aircraft/707-700/Models/Cockpit/Instruments/radio/tacan.xml</path>
-        <condition>
-            <or>
-                <equals>
-                    <property>sim/aircraft</property>
-                    <value type="string">EC-137D</value>
-                </equals>
-                <equals>
-                    <property>sim/aircraft</property>
-                    <value type="string">707-TT</value>
-                </equals>
-                <equals>
-                    <property>sim/model/livery/file</property>
-                    <value type="string">USA</value>
-                </equals>
-                <equals>
-                    <property>sim/model/livery/file</property>
-                    <value type="string">FAE</value>
-                </equals>
-                <equals>
-                    <property>sim/model/livery/file</property>
-                    <value type="string">CR</value>
-                </equals>
-            </or>
-        </condition>
-        <offsets>
-            <x-m>-18.325</x-m>
-            <y-m>  0.0675</y-m>
-            <z-m>  0.625</z-m>
-            <pitch-deg>-90</pitch-deg>
-        </offsets>
-    </model>
+    
     <model>
         <path>Aircraft/707-700/Models/Cockpit/Instruments/radar/radar.xml</path>
         <offsets>

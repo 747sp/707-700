@@ -272,7 +272,7 @@ no. D6-3071-00
 			<file>Aircraft/707-700/Nasal/autopilot-Bendix-PB-20.nas</file>
 			<file>Aircraft/707-700/Nasal/tcas.nas</file>
 			<file>Aircraft/707-700/Nasal/registration.nas</file>
-			<file>Aircraft/707-700/Nasal/manual.nas</file>	
+			<file>Aircraft/707-700/Nasal/manual.nas</file>
 		</b707> 
 		
 	    <dual_control_tools>

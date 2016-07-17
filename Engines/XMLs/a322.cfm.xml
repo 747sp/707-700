@@ -29,7 +29,7 @@
 	<!-- Nasal code 
 	<nasal>
 		<load>
-		 var livery_update = aircraft.livery_update.new("Aircraft/KC-135R/Models/Liveries/" ~ getprop("sim/aero"));
+		 var livery_update = aircraft.livery_update.new("Aircraft/707-700/Models/Liveries/" ~ getprop("sim/aero"));
 		</load>
 		<unload>
 		 livery_update.stop();

@@ -24,12 +24,12 @@
   
   <systems n="0">
     <autopilot n="0">
-        <path>Aircraft/707/Systems/autopilot.xml</path>
+        <path>Aircraft/707-700/Systems/autopilot.xml</path>
     </autopilot>
 	</systems>
 
 	<instrumentation>
-    <path>Aircraft/707/Systems/instrumentation.xml</path>
+    <path>Aircraft/707-700/Systems/instrumentation.xml</path>
   </instrumentation>
   
   <model>
@@ -58,7 +58,7 @@
 	</airport>
 
   <sound>
-      <path>Aircraft/707/Sounds/707-sound.xml</path>
+      <path>Aircraft/707-700/Sounds/707-sound.xml</path>
       <switch type = "bool">0</switch>
       <stall-horn type="bool">0</stall-horn>
   </sound> 

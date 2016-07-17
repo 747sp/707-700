@@ -19,11 +19,11 @@
 	</model>
 
 	<model>
-		<path>Aircraft/A320-family/Engines/XMLs/a320.cfm.xml</path>
+		<path>Aircraft/707-700/Engines/XMLs/a320.cfm.xml</path>
 	</model>
 
 	<model>
-		<path>Aircraft/A320-family/Engines/XMLs/a320.nacelle.cfm.xml</path>
+		<path>Aircraft/707-700/Engines/XMLs/a320.nacelle.cfm.xml</path>
 		<overlay>
 			<params>
 				<reverser-pos-norm alias="../../../../params/reverser-pos-norm" />
@@ -33,7 +33,7 @@
 
 	<model>
 		<name>Contrail</name>
-		<path>Aircraft/A320-family/XMLs/Effects/contrail.xml</path>
+		<path>Aircraft/707-700/XMLs/Effects/contrail.xml</path>
 		<overlay>
 			<params>
 				<contrail alias="../../../../params/contrail" />
@@ -48,7 +48,7 @@
 
 	<model>
 		<name>Engine fire</name>
-		<path>Aircraft/A320-family/XMLs/Effects/enginefire.xml</path>
+		<path>Aircraft/707-700/XMLs/Effects/enginefire.xml</path>
 		<offsets>
 			<x-m>2.774</x-m>
 			<y-m>0</y-m>
