@@ -131,5 +131,15 @@
 		  <z-m> 0.0</z-m>
 		</offsets>
 	</model>
+	
+<model>
+  <name>EFIS_L</name>
+  <path>Aircraft/707-700/Models/Cockpit/Instruments/EFIS/efis_L.xml</path>
+  <offsets>
+	<x-m> 0.0</x-m>
+	<y-m>-0.1004</y-m>
+	<z-m>-0.0</z-m>
+	</offsets>
+</model>
 
 </PropertyList>
